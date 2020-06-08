@@ -17,7 +17,7 @@ You will also see any lint errors in the console.
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `Simple react app rendering public repos in github `
+### `Simple react app for rendering public repos in github `
 
  
  
