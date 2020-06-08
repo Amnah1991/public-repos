@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.grid{
+  display: flex;
+  
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.item-grid{
+  flex-grow: 1;
+  flex: 0 0 15rem;
+  padding: 1rem; 
+}
+
+.item-grid li{
+  list-style-type: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+  
+
+.container, 
+.lang-container{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+   
+}
+.container{
+  align-items: center;
+}
+.lang-container{
+  padding: 2rem;
+  align-items: left ;
+}
+
+.App-link {
+  color: #61dafb;
+  list-style-type: none;
+  cursor: pointer;
+}
+ 
